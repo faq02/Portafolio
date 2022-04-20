@@ -1,0 +1,40 @@
+.Barra-header{
+    display: flex;
+    height: 10vh;
+    background-color:black;
+}
+img{
+    margin-left: 2px;
+}
+.buttons{
+  display:flex;
+  text-decoration: none;
+  margin-left: auto;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons .fa{
+    margin:0 10px;
+    color:white;
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    border-radius: 50%;
+}
+.buttons .red1:hover{
+    background:#1a1aff;
+}
+.buttons .red2:hover{
+    background:#80aaff;
+}
+.buttons .red3:hover{
+    background:#ff66cc;
+}
