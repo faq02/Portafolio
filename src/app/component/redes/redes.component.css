@@ -8,7 +8,6 @@ img{
 }
 .buttons{
   display:flex;
-  text-decoration: none;
   margin-left: auto;
   margin-top:auto;
   margin-bottom: auto;
@@ -20,13 +19,19 @@ img{
     text-decoration: none;
 }
 .buttons .fa{
-    margin:0 10px;
+    margin:0;
     color:white;
     cursor:pointer;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align:center;
+    border-radius: 50%;
+}
+.login{
+    cursor:pointer;
+    color:white;
+    border-bottom: 2px solid blue;
     border-radius: 50%;
 }
 .buttons .red1:hover{
@@ -38,3 +43,4 @@ img{
 .buttons .red3:hover{
     background:#ff66cc;
 }
+
