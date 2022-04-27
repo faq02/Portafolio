@@ -1,0 +1,22 @@
+.containerr{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+.img1{
+    display:inline-block;
+    width:97%;
+    margin-top: 10vh;
+    height:45vh;
+    border-radius:10px;
+}
+.img2{
+    display:inline-block;
+    margin:0;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.containerr-2{
+    background-color: red;
+    width:100%;
+}
