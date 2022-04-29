@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     background-image: url("https://www.zdnet.com/a/img/resize/e2cf5a369485475eb562916de6169eb6a5e48a85/2022/02/16/dcea0eae-86e4-40d6-92c7-1f25e2d9ee0d/getty-hacker-hands-on-a-keyboard.jpg?width=1200&height=900&fit=crop&auto=webp");
     display:flex;
+    background-position-x: center;
     align-items: center;
     justify-content: center;
 }
@@ -28,6 +29,7 @@ input:focus{
     outline: none;
 }
 button{
+    color:#fff;
     display:block;
     margin:auto;
     background:#e60000;

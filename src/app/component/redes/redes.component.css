@@ -1,48 +1,62 @@
-.Barra-header{
-    display: flex;
-    height: 10vh;
+body{
+    padding:70px 20px 0;
+}
+.header{
+    height: 70px;
     background-color:black;
     position:fixed;
     width: 100%;
+    top:0;
+    left:0;
+    
 }
-img{
-    margin-left: 2px;
-}
-.buttons{
-  display:flex;
-  margin-left: auto;
-  margin-top:auto;
-  margin-bottom: auto;
-  margin-right: 5px;
-  font-size: 25px;
-  border-radius: 50%;
-}
-.buttons a{
-    text-decoration: none;
-}
-.buttons .fa{
-    margin:0;
-    color:white;
-    cursor:pointer;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align:center;
-    border-radius: 50%;
-}
-.login{
-    cursor:pointer;
-    color:white;
-    border-bottom: 2px solid blue;
-    border-radius: 50%;
-}
-.buttons .red1:hover{
-    background:#1a1aff;
-}
-.buttons .red2:hover{
-    background:#80aaff;
-}
-.buttons .red3:hover{
-    background:#ff66cc;
+.Barra{
+    display:flex;
+    justify-content: space-between;
+    
 }
 
+img{
+    height:auto;
+    max-height: 70px;
+    margin-left: 2px;
+}
+.buttons a{
+    text-decoration:none;
+    height:30px;
+    width:30px;
+    text-align: center;
+}
+.buttons{
+    list-style: none;
+    display:flex;
+    line-height: 70px;
+    overflow-x: auto;
+}
+.buttons .fa{
+    cursor:pointer;
+    font-size: 20px;
+    line-height: 70px;
+    margin: 0 5px;
+    color:#fff;
+    
+}
+.login{
+    font-size: 20px;
+    line-height:70px;
+    margin: 0 5px;
+    color: #fff;
+    border-bottom:1px solid #333333 ;
+}
+.buttons .red1:hover{
+    color:#1a1aff;
+}
+.buttons .red2:hover{
+    color:#80aaff;
+}
+.buttons .red3:hover{
+    color:#ff66cc;
+}
+.buttons .login:hover{
+    background: #333333;
+}
